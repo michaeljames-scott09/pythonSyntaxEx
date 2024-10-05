@@ -39,3 +39,11 @@ def print_upper_words3(words, must_start_with):
             if word.startswith(letter):
                 print(word.upper())
                 break
+
+
+print("Part 1: ")
+print_upper_words(["Programming", "is", "pretty", "fun"])
+print("Part 2: ")
+print_upper_words2(["eagle", "Edward", "Alfred"])
+print("Part 3: ")
+print_upper_words3(["eagle", "Edward", "Alfred", "zope"], must_start_with=["A", "E"])
